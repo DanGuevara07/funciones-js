@@ -6,6 +6,8 @@ function dibujarCuadrado(x){
     }
     return linea;
 }
+// Nota de desarrollo: se optó por usar * pintados del fondo porque el caracter &nbsp: no tenia la misma longitud 
+// haciendo que el cuadro se viera desproporcional.
 
 document.getElementById("checkbutton").onclick=function(){
     output= "";
